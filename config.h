@@ -9,12 +9,14 @@ using std::string;
 
 class App {
 
+	// Basic menu
 	void menu() {
 		cout << "-----------------------------" << endl;
 		cout << " School System | C++ Edition " << endl;
 		cout << "-----------------------------" << endl << endl;
 	}
 
+	// Input a text and a float number
 	float getFloat(string text) {
 		cout << text;
 		float number;
@@ -22,6 +24,7 @@ class App {
 		return number;
 	}
 
+	// Calculate all the variables
 	void calculator() {
 		float num01 = getFloat("Insert your first note: ");
 		float num02 = getFloat("Insert your second note: ");
@@ -37,6 +40,8 @@ class App {
 	}
 
 public:
+
+	// Function that run the aplication
 	void run() {
 		
 		while (true) {

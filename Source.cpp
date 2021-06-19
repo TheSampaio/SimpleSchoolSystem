@@ -2,6 +2,7 @@
 
 int main() {
 
+	// Runnig the aplication
 	App schoolSystem;
 	schoolSystem.run();
 
