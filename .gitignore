@@ -1,9 +1,9 @@
+# Directories
 
 .vs
-x64/Debug/SimpleSchoolSystem.pdb
-x64/Debug/SimpleSchoolSystem.exe
-SimpleSchoolSystem/x64
-SimpleSchoolSystem/SimpleSchoolSystem.vcxproj.user
-SimpleSchoolSystem/SimpleSchoolSystem.vcxproj.filters
-SimpleSchoolSystem/SimpleSchoolSystem.vcxproj
-SimpleSchoolSystem.sln
+x64
+SimpleSchoolSystem\x64
+
+# Files
+
+*.user
